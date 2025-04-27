@@ -1,0 +1,91 @@
+/* Базовая шапка */
+.header {
+  position: relative;
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.burger {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Мобильное меню */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #1e1e1e;
+  color: #fff;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 24px;
+  z-index: 1000;
+}
+
+.mobile-menu.active {
+  display: flex;
+}
+
+.close-btn {
+  align-self: flex-end;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.mobile-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.mobile-nav li {
+  margin: 16px 0;
+}
+
+.mobile-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.mobile-contacts {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.mobile-contacts a {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+}

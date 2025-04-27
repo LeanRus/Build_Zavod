@@ -1,0 +1,33 @@
+/* Плавная прокрутка */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Если у тебя фиксированная шапка */
+section {
+  scroll-margin-top: 100px; /* Подгони под высоту своей шапки */
+}
+
+/* Пример стилей навигации */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 24px;
+  padding: 16px 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
