@@ -62,7 +62,6 @@ h4 {
   
   width: 100%;
   max-width: 1440px;
-  max-width: 1440px;
   box-sizing: border-box;
   outline: 1px solid rgba(255, 0, 0, 0.1);
 }
@@ -118,7 +117,7 @@ h4 {
 
 .title--w700 {
   width: 1200px;
-  height: 95px;
+  /*height: 95px;*/
 }
 
 .title--w462 {
@@ -139,7 +138,7 @@ h4 {
   color: #000000;
 }
 
-.title--344 {
+.title--w344 {
   width: 344px;
   height: 44px;
   font-size: 18px;
@@ -182,6 +181,7 @@ h4 {
 
 .subtitle--w539 {
   width: 539px;
+  font-size: 24px;
 }
 
 .subtitle--w1200 {
@@ -209,4 +209,11 @@ h4 {
   
   font-weight: 400;
   font-size: 16px;
+}
+
+.workflow_title {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 105px;
 }

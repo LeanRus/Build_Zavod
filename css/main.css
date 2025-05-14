@@ -56,7 +56,6 @@ h4 {
   
   width: 100%;
   max-width: 1440px;
-  max-width: 1440px;
   box-sizing: border-box;
   outline: 1px solid rgba(255, 0, 0, 0.1);
 }
@@ -133,7 +132,7 @@ h4 {
   color: #000000;
 }
 
-.title--344 {
+.title--w344 {
   width: 344px;
   height: 44px;
   font-size: 18px;
