@@ -1,10 +1,4 @@
-@import "nav.css";
-@import "cards.css";
-@import "gallery.css";
-@import "footer.css";
-@import "form.css";
-@import "contacts.css";
-@import "mobile.css";
+/* Файл содержит все стили, которые применяются к главной странице без разбивки на модули как в первоначальном варианте */
 
 
 html, body {
